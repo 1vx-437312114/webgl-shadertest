@@ -1,0 +1,1 @@
+function mv_PushMatrix(){var t=mat4.create();mat4.set(modelViewMatrix,t),modelViewMatrixStack.push(t)}function mv_PopMatrix(){if(0==modelViewMatrixStack.length)throw"Invalid poprojectionMatrix!";modelViewMatrix=modelViewMatrixStack.pop()}var modelViewMatrixStack=[];
